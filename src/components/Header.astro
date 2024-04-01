@@ -6,25 +6,27 @@ import MenuIcon from './icons/MenuIcon.astro'
 import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
 import ToggleTheme from './ToggleTheme.astro'
+import About from 'src/pages/about.astro'
 
 // ADD YOUR SOCIAL NETWORKS HERE
 const SOCIALNETWORKS = [
 	{
 		name: 'Github',
-		url: 'https://github.com/danielcgilibert/blog-template',
+		url: 'https://github.com/NotHarshhaa',
 		icon: GithubIcon
 	},
 
 	{
 		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
+		url: 'https://t.me/prodevopsguy',
 		icon: TwitterIcon
 	}
 ]
 ---
 
-<header class='relative flex items-center h-12 font-semibold'>
-	<a class='text-lg mr-auto' href='/'>Home</a>
+<header class='relative flex items-center h-30 font-bold'>
+	<a class='text-lg mr-auto' href='/'>ProDevOpsGuy</a>
+	<a class='flex items-center gap-1 text-2xl md:text-base' href='/about'>About US |</a>
 
 	<div
 		id='astro-header-drawer'
@@ -37,7 +39,7 @@ const SOCIALNETWORKS = [
 				class='flex flex-col gap-4 md:flex-row md:border-r-2 border-black pr-4 dark:border-white'
 			>
 				<HeaderLink href='/tags' class='flex items-center gap-1 text-2xl md:text-base'>
-					<TagIcon /> Tags
+					<TagIcon /> All Tags
 				</HeaderLink>
 			</div>
 

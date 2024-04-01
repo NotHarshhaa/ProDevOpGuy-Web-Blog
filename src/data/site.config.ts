@@ -9,9 +9,10 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	author: 'DanielCG', // Site author
-	title: 'Astro Theme OpenBlog', // Site title.
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
+	author: 'ProDevOpsGuy', // Site author
+	title: 'Free DevOps/Cloud World', // Site title.
+	description:
+		'ProDevOpsGuy is a DevOps/Cloud world which gives the best output and learning, exploring things on DevOps, Cloud Technologies', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
 	shareMessage: 'Share this post', // Message to share a post on social media

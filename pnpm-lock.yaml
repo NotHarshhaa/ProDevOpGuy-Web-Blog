@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/rss':
-    specifier: 4.0.1
-    version: 4.0.1
+    specifier: 4.0.5
+    version: 4.0.5
   astro:
     specifier: 4.0.8
     version: 4.0.8(typescript@5.2.2)
@@ -209,8 +209,8 @@ packages:
     dependencies:
       prismjs: 1.29.0
 
-  /@astrojs/rss@4.0.1:
-    resolution: {integrity: sha512-fzXWsrAp17atO02OZJETM8e8McRz+dNWzMeO7ENb6xgod2nWj5mH/auPBFs1a9FzMUi1nOQmzSPHO1hxZZpkwQ==}
+  /@astrojs/rss@4.0.5:
+    resolution: {integrity: sha512-IyJVL6z09AQtxbgLaAwebT3T5YKe4oTHDesqydJv1KLHw+zEzzMCFuuNsEyxjiqu7df9+DDCpDXLj/WRiEUXvw==}
     dependencies:
       fast-xml-parser: 4.3.2
       kleur: 4.1.5
@@ -1865,7 +1865,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
-      dset: 3.1.2
+      dset: 3.1.3
       graphql: 15.8.0
       tslib: 2.6.2
     dev: true
@@ -9115,11 +9115,6 @@ packages:
       react: 18.2.0
       react-is: 17.0.2
       tslib: 2.6.2
-    dev: true
-
-  /dset@3.1.2:
-    resolution: {integrity: sha512-g/M9sqy3oHe477Ar4voQxWtaPIFw1jTdKZuomOjhCcBx9nHUNn0pu6NopuFFrTh/TRZIKEj+76vLWFu9BNKk+Q==}
-    engines: {node: '>=4'}
     dev: true
 
   /dset@3.1.3:
